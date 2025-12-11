@@ -29,7 +29,7 @@ export default function Home() {
   const [alertData, setAlertData] = useState<AlertResponse | null>(null)
   const [error, setError] = useState<string>('')
 
-  const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:8000'
+  const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || 'https://aakashdg-mcp-alert-generator.hf.space'
 
   // Fetch locations on mount
   useEffect(() => {
