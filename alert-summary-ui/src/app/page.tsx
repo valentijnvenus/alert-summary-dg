@@ -46,10 +46,15 @@ export default function Home() {
         },
         body: JSON.stringify({
           query: query,
+          // location: {
+          //   name: 'Bangalore Agricultural Region',
+          //   lat: 12.8716,
+          //   lon: 77.4946
+          // }
           location: {
-            name: 'Bangalore Agricultural Region',
-            lat: 12.8716,
-            lon: 77.4946
+            name: 'Guntur, Tamil Nadu',
+            lat: 15.912,
+            lon: 79.740
           }
         }),
       })
