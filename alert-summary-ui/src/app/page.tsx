@@ -78,10 +78,15 @@ export default function Home() {
         },
         body: JSON.stringify({
           query: query,
+          // location: {
+          //   name: 'Bangalore Agricultural Region',
+          //   lat: 12.8716,
+          //   lon: 77.4946
+          // }
           location: {
-            name: 'Bangalore Agricultural Region',
-            lat: 12.8716,
-            lon: 77.4946
+            name: 'Guntur, Tamil Nadu',
+            lat: 15.912,
+            lon: 79.740
           }
         }),
       })
@@ -121,7 +126,7 @@ export default function Home() {
         <div className="bg-white rounded-lg shadow-md p-6 mb-6">
           <form onSubmit={handleSubmit}>
             <label htmlFor="query" className="block text-sm font-medium text-gray-700 mb-2">
-              Ask a question about farming in Bangalore:
+              Ask a question about farming in Guntur Fields:
             </label>
             <div className="flex gap-3">
               <input
